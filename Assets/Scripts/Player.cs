@@ -4,8 +4,6 @@ using System.Collections;
 
 public class Player : NetworkBehaviour {
 
-    [SyncVar]
-    private bool _isDead = false;
     public bool IsDead
     {
         get;
